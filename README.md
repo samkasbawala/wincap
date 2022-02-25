@@ -1,7 +1,8 @@
 # Win Cap
 A simple library that can capture an image from a window,
 Designed to be used with OpenCV so that a steady stream of capture material can be fed.
-Useful if you are trying to use template matching
+Useful if you are trying to use template matching.
+**THIS PROJECT IS ONLY FOR WINDOWS**
 
 ## Usage
 ```python
