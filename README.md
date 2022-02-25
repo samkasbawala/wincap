@@ -4,6 +4,13 @@ Designed to be used with OpenCV so that a steady stream of capture material can 
 Useful if you are trying to use template matching.
 **THIS PROJECT IS ONLY FOR WINDOWS**
 
+## Installation
+This package is not PyPI. Instead, you can install it from here.
+Easiest way (requires git to be installed on system):
+```
+pip install git+https://github.com/samkasbawala/wincap.git
+```
+
 ## Usage
 ```python
 from win_cap import Window
