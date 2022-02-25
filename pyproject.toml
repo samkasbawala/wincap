@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "win-cap"
+version = "0.1.0"
+description = ""
+authors = ["Sam Kasbawala <samarth.kasbawala@uconn.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.2"
+opencv-contrib-python = "^4.5.5"
+pywin32 = "^303"
+PyAutoGUI = "^0.9.53"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+black = "^22.1.0"
+mypy = "^0.931"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+win_cap = 'win_cap.__main__:main'
